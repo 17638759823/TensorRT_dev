@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TensorRT_dev", "TensorRT_dev\TensorRT_dev.vcxproj", "{27737A3B-70A4-44DC-9362-81F208C56909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Debug|x64.ActiveCfg = Debug|x64
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Debug|x64.Build.0 = Debug|x64
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Debug|x86.ActiveCfg = Debug|Win32
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Debug|x86.Build.0 = Debug|Win32
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Release|x64.ActiveCfg = Release|x64
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Release|x64.Build.0 = Release|x64
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Release|x86.ActiveCfg = Release|Win32
+		{27737A3B-70A4-44DC-9362-81F208C56909}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BE402EC-B9D4-4C86-B17C-00A5A5893AAF}
+	EndGlobalSection
+EndGlobal
