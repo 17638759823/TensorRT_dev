@@ -134,27 +134,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\utils\utils.cpp" />
+    <ClCompile Include="..\utils\yolo.cpp" />
+    <ClCompile Include="app_yolov8.cpp" />
     <ClCompile Include="D:\Download\TensorRT-8.6.1.6.Windows10.x86_64.cuda-12.0\TensorRT-8.6.1.6\samples\common\logger.cpp" />
-    <ClCompile Include="D:\workspace\tensorrt-alpha\utils\utils.cpp" />
-    <ClCompile Include="D:\workspace\tensorrt-alpha\utils\yolo.cpp" />
-    <ClCompile Include="D:\workspace\tensorrt-alpha\yolov8\app_yolov8.cpp" />
-    <ClCompile Include="D:\workspace\tensorrt-alpha\yolov8\yolov8.cpp" />
+    <ClCompile Include="yolov8.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\utils\kernel_function.cu">
-      <FileType>Document</FileType>
-    </CudaCompile>
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\yolov8\decode_yolov8.cu">
-      <FileType>Document</FileType>
-    </CudaCompile>
+    <ClInclude Include="..\utils\common_include.h" />
+    <CudaCompile Include="..\utils\kernel_function.h" />
+    <ClInclude Include="..\utils\utils.h" />
+    <ClInclude Include="..\utils\yolo.h" />
+    <CudaCompile Include="..\utils\kernel_function.cu" />
+    <CudaCompile Include="decode_yolov8.h" />
+    <ClInclude Include="yolov8.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\workspace\tensorrt-alpha\utils\common_include.h" />
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\utils\kernel_function.h" />
-    <ClInclude Include="D:\workspace\tensorrt-alpha\utils\utils.h" />
-    <ClInclude Include="D:\workspace\tensorrt-alpha\utils\yolo.h" />
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\yolov8\decode_yolov8.h" />
-    <ClInclude Include="D:\workspace\tensorrt-alpha\yolov8\yolov8.h" />
+    <CudaCompile Include="decode_yolov8.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,48 +15,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\workspace\tensorrt-alpha\yolov8\app_yolov8.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\workspace\tensorrt-alpha\yolov8\yolov8.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="D:\Download\TensorRT-8.6.1.6.Windows10.x86_64.cuda-12.0\TensorRT-8.6.1.6\samples\common\logger.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="D:\workspace\tensorrt-alpha\utils\utils.cpp">
-      <Filter>头文件</Filter>
+    <ClCompile Include="yolov8.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="D:\workspace\tensorrt-alpha\utils\yolo.cpp">
-      <Filter>头文件</Filter>
+    <ClCompile Include="app_yolov8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\yolo.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\workspace\tensorrt-alpha\yolov8\yolov8.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\workspace\tensorrt-alpha\utils\common_include.h">
+    <ClInclude Include="yolov8.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="D:\workspace\tensorrt-alpha\utils\utils.h">
+    <ClInclude Include="..\utils\utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="D:\workspace\tensorrt-alpha\utils\yolo.h">
+    <ClInclude Include="..\utils\yolo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\common_include.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\utils\kernel_function.h">
-      <Filter>头文件</Filter>
-    </CudaCompile>
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\utils\kernel_function.cu">
-      <Filter>头文件</Filter>
-    </CudaCompile>
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\yolov8\decode_yolov8.h">
+    <CudaCompile Include="decode_yolov8.cu">
       <Filter>源文件</Filter>
     </CudaCompile>
-    <CudaCompile Include="D:\workspace\tensorrt-alpha\yolov8\decode_yolov8.cu">
+    <CudaCompile Include="decode_yolov8.h">
+      <Filter>头文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\utils\kernel_function.cu">
       <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\utils\kernel_function.h">
+      <Filter>头文件</Filter>
     </CudaCompile>
   </ItemGroup>
 </Project>
